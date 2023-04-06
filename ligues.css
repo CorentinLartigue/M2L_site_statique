@@ -1,0 +1,168 @@
+/* Définir les styles pour le corps de la page */
+body {
+  margin: 0;
+  font-family: Cambria   ;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5d77f; /* Couleur de fond rappelant la région Lorraine */
+  display: grid;
+  grid-template-rows: auto auto 10fr auto;
+}
+
+  /* Définir les styles pour l'en-tête */
+  #entete {
+    background-color: #333;
+    color: #fff;
+    padding: 10px; 
+    grid-row: 1;
+    grid-column: span 2;
+    text-align: center ;
+  }
+  
+  #entete h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    line-height: 140px;
+    margin-left: 400px;
+  }
+  
+  #img1 {
+    position: relative;
+    float:left;
+    margin-left: 20px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  #img2 {
+    position: relative;
+    float:right;
+    margin-right: 20px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  
+  /* Définir les styles pour la navigation */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 25px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #f5d77f;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+  }
+
+/* Définir les styles pour le contenu principal */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  grid-row: 3;
+}
+
+
+h2{
+  font-size: 25px;
+  font-weight: 600; 
+  text-transform: uppercase;
+  padding-left: 200px ;
+  padding-top: 20px;
+}
+
+section ul{
+  list-style: none;
+}
+
+section a{
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+
+section a:hover{
+  background-color: #333;
+  color: #f5d77f;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#img3{
+  float:left;
+  max-width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  padding-right: 30px;
+}
+
+
+#img4{
+  float:left;
+  max-width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  padding-right: 30px;
+
+}
+
+#img5{
+float:left;
+max-width: 100%;
+border-radius: 10px 10px 10px 10px;
+padding-right: 30px;
+
+}
+
+
+/* Définir les styles pour le pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  grid-row: 4;
+  grid-column: span 2;
+  margin-top: 100px;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-family: Montserrat;
+  font-size: 17px;
+}

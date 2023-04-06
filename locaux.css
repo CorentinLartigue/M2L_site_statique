@@ -1,0 +1,161 @@
+/* Style pour le corps de la page */
+body {
+  margin: 0;
+  font-family: Cambria   ;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5d77f; /* Couleur de fond rappelant la région Lorraine */
+  display: grid;
+  grid-template-rows: auto auto 20fr auto;
+}
+
+  /* Définir les styles pour l'en-tête */
+  #entete {
+    background-color: #333;
+    color: #fff;
+    padding: 10px; 
+    grid-row: 1;
+    grid-column: span 2;
+    text-align: center ;
+  }
+  
+  #entete h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    line-height: 140px;
+    margin-left: 400px;
+  }
+  
+  #img1 {
+    position: relative;
+    float:left;
+    margin-left: 20px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  #img2 {
+    position: relative;
+    float:right;
+    margin-right: 20px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  
+  /* Définir les styles pour la navigation */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 25px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #f5d77f;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+  }
+  
+/* Style pour les titres de section et d'article */
+h2 {
+margin: 0;
+font-size: 25px;
+font-family: Montserrat;
+text-transform: uppercase;
+}
+
+/* Définit le contenu principal */
+section {
+  grid-gap: 40px;
+  margin: 0;
+  padding: 40px;
+  grid-row: 3;
+  grid-column: span 2;
+}
+
+h3, h4, h5, h6 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+}
+section img{
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Style pour la table */
+table {
+border-collapse: collapse;
+width: 100%;
+text-align: center;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+border-color: black;
+border-style:double;
+}
+
+th {
+background-color: #f2f2f2;
+font-weight: bold;
+}
+
+td {
+  background-color: #333;
+  color:#ccc;
+  text-align: center;
+  opacity: 100%;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-row: 4;
+    grid-column: span 2;
+    margin-top: 100px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-family: Montserrat;
+    font-size: 17px;
+}
